@@ -22,6 +22,18 @@
 
 FW_DIR="$(DESTDIR)/lib/firmware"
 
+# install Aetheros AR7010 firmware
+mkdir -p $FW_DIR
+  cp ar7010/* $FW_DIR
+
+# install Aetheros AR9170 firmware
+mkdir -p $FW_DIR
+  cp ar9170/* $FW_DIR
+
+# install Aetheros AR9271 firmware
+mkdir -p $FW_DIR
+  cp ar9271/* $FW_DIR
+
 # install broadcom B43 firmware
 mkdir -p $FW_DIR/b43
   cp b43/* $FW_DIR/b43
