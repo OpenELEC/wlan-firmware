@@ -20,7 +20,7 @@
 #  http://www.gnu.org/copyleft/gpl.html
 ################################################################################
 
-FW_DIR="$(DESTDIR)/lib/firmware"
+FW_DIR="$DESTDIR/lib/firmware"
 
 # install Aetheros AR7010 firmware
 mkdir -p $FW_DIR
@@ -85,6 +85,38 @@ mkdir -p $FW_DIR
 # install ORINOCO Agere firmware
 mkdir -p $FW_DIR
   cp orinoco/* $FW_DIR
+
+# install Ralink 2561 firmware
+mkdir -p $FW_DIR
+  cp rt2561/* $FW_DIR
+
+# install Ralink 2661 firmware
+mkdir -p $FW_DIR
+  cp rt2661/* $FW_DIR
+
+# install Ralink 2860 firmware
+mkdir -p $FW_DIR
+  cp rt2860/* $FW_DIR
+
+# install Ralink 2870 firmware
+mkdir -p $FW_DIR
+  cp rt2870/* $FW_DIR
+
+# install Ralink 3070 firmware
+mkdir -p $FW_DIR
+  cp rt3070/* $FW_DIR
+
+# install Ralink 3071 firmware
+mkdir -p $FW_DIR
+  cp rt3071/* $FW_DIR
+
+# install Ralink 3090 firmware
+mkdir -p $FW_DIR
+  cp rt3090/* $FW_DIR
+
+# install Ralink 73 firmware
+mkdir -p $FW_DIR
+  cp rt73/* $FW_DIR
 
 # install ZyDAS ZD1211(b) firmware
 mkdir -p $FW_DIR/zd1211
