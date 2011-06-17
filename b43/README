@@ -1,1 +1,10 @@
 http://wireless.kernel.org/en/users/Drivers/b43#fw-b43-new
+
+for new version (see http://comments.gmane.org/gmane.linux.drivers.bcm54xx.devel/11581):
+- download and extract http://mirror2.openwrt.org/sources/broadcom-wl-5.10.56.27.3_mipsel.tar.bz2
+- git clone git://git.bu3sch.de/b43-tools.git
+- cd b43-tools/fwcutter
+- make
+- cd ../..
+- mkdir ./fw
+- ./b43-tools/fwcutter/b43-fwcutter -w ./fw/ ./broadcom-wl-5.10.56.27.3/driver/wl_apsta/wl_prebuilt.o
