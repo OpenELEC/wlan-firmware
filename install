@@ -102,17 +102,9 @@ mkdir -p $FW_DIR
 mkdir -p $FW_DIR
   cp rt2870/* $FW_DIR
 
-# install Ralink 3070 firmware
-mkdir -p $FW_DIR
-  cp rt3070/* $FW_DIR
-
 # install Ralink 3071 firmware
 mkdir -p $FW_DIR
   cp rt3071/* $FW_DIR
-
-# install Ralink 3090 firmware
-mkdir -p $FW_DIR
-  cp rt3090/* $FW_DIR
 
 # install Ralink 73 firmware
 mkdir -p $FW_DIR
