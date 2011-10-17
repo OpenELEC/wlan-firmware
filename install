@@ -22,6 +22,10 @@
 
 FW_DIR="$DESTDIR/lib/firmware"
 
+# install ATH firmware
+mkdir -p $FW_DIR
+  cp ath/* $FW_DIR
+
 # install broadcom B43 firmware
 mkdir -p $FW_DIR/b43
   cp b43/* $FW_DIR/b43
