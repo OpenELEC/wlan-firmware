@@ -118,10 +118,6 @@ mkdir -p $FW_DIR
 mkdir -p $FW_DIR/RTL8192E
   cp RTL8192E/* $FW_DIR/RTL8192E
 
-# install Realtek LAN firmware
-mkdir -p $FW_DIR/rtl_nic
-  cp rtl_nic/* $FW_DIR/rtl_nic
-
 # install Realtek Wifi firmware
 mkdir -p $FW_DIR/rtlwifi
   cp rtlwifi/* $FW_DIR/rtlwifi
