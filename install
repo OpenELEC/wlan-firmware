@@ -50,9 +50,25 @@ mkdir -p $FW_DIR
 mkdir -p $FW_DIR
   cp iwlwifi-100/* $FW_DIR
 
+# install Intel iwlwifi-105 firmware
+mkdir -p $FW_DIR
+  cp iwlwifi-105/* $FW_DIR
+
+# install Intel iwlwifi-135 firmware
+mkdir -p $FW_DIR
+  cp iwlwifi-135/* $FW_DIR
+
 # install Intel iwlwifi-1000 firmware
 mkdir -p $FW_DIR
   cp iwlwifi-1000/* $FW_DIR
+
+# install Intel iwlwifi-2000 firmware
+mkdir -p $FW_DIR
+  cp iwlwifi-2000/* $FW_DIR
+
+# install Intel iwlwifi-2030 firmware
+mkdir -p $FW_DIR
+  cp iwlwifi-2030/* $FW_DIR
 
 # install Intel iwlwifi-3945 firmware
 mkdir -p $FW_DIR
@@ -109,6 +125,10 @@ mkdir -p $FW_DIR
 # install Ralink 3071 firmware
 mkdir -p $FW_DIR
   cp rt3071/* $FW_DIR
+
+# install Ralink 3290 firmware
+mkdir -p $FW_DIR
+  cp rt3290/* $FW_DIR
 
 # install Ralink 73 firmware
 mkdir -p $FW_DIR
