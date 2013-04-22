@@ -46,6 +46,10 @@ mkdir -p $FW_DIR
 mkdir -p $FW_DIR
   cp ipw2200/* $FW_DIR
 
+# install ISL firmware
+mkdir -p $FW_DIR
+  cp isl/* $FW_DIR
+
 # install Intel iwlwifi-100 firmware
 mkdir -p $FW_DIR
   cp iwlwifi-100/* $FW_DIR
