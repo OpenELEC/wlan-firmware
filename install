@@ -50,53 +50,9 @@ mkdir -p $FW_DIR
 mkdir -p $FW_DIR
   cp isl/* $FW_DIR
 
-# install Intel iwlwifi-100 firmware
+# install Intel iwlwifi firmware
 mkdir -p $FW_DIR
-  cp iwlwifi-100/* $FW_DIR
-
-# install Intel iwlwifi-105 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-105/* $FW_DIR
-
-# install Intel iwlwifi-135 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-135/* $FW_DIR
-
-# install Intel iwlwifi-1000 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-1000/* $FW_DIR
-
-# install Intel iwlwifi-2000 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-2000/* $FW_DIR
-
-# install Intel iwlwifi-2030 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-2030/* $FW_DIR
-
-# install Intel iwlwifi-3945 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-3945/* $FW_DIR
-
-# install Intel iwlwifi-4965 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-4965/* $FW_DIR
-
-# install Intel iwlwifi-5000 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-5000/* $FW_DIR
-
-# install Intel iwlwifi-5150 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-5150/* $FW_DIR
-
-# install Intel iwlwifi-6000 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-6000/* $FW_DIR
-
-# install Intel iwlwifi-6050 firmware
-mkdir -p $FW_DIR
-  cp iwlwifi-6050/* $FW_DIR
+  cp iwlwifi/* $FW_DIR
 
 # install Libertas WLAN firmware
 mkdir -p $FW_DIR/libertas
